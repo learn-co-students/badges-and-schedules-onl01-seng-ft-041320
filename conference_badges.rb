@@ -22,13 +22,13 @@ end
 def printer(array)
 	x = 0
 	b = batch_badge_creator(array)
-	while x <= batch_badge_creator(array).size()
+	while x <= batch_badge_creator(array).length - 1
  	puts b[x]
  x += 1
 end
 y = 0
 a = assign_rooms(array)
-while y <= assign_rooms(array).size()
+while y <= assign_rooms(array).length - 1
 	puts a[y]
 	y += 1
 end
